@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.author-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+border:1px solid black ;
+height: 15em;
+width: 13em;
+padding: 0.2em;
+margin: 0.3em;
+border-radius: 3px;
+background-color: #34495e;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+}
+.author-card img {
+    border-radius: 50%;
+}
+.author-card h1 {
+font-size: 1.5em;
+
+}
+
+.author-card h4 {
+    font-weight: 400;
+}
+.author-card h4 span,.author-card p span {
+    font-weight: 700;
+}
+.author-card p {
+    font-weight: 400;
+    margin: 0;
+}
+.twitter {
+  width: 1.5em;
+  height: 1.5em;
+  align-self: flex-end;
+}
